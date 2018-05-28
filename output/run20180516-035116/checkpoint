@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/anhtu/IT/GR3/twitter-event-cnn/output/run20180516-035116/ckpt.ckpt"
+all_model_checkpoint_paths: "/home/anhtu/IT/GR3/twitter-event-cnn/output/run20180516-035116/ckpt.ckpt"

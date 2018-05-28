@@ -1,0 +1,23 @@
+
+======================= START! ========================
+
+Dataset:
+	Train set size = 3910
+	Test set size = 977
+	Vocabulary size = 8713
+	Input layer size = 142
+	Number of classes = 2
+
+Output folder: /home/anhtu/IT/GR3/event-detection-cnn/output/run20180526-103919
+Data processing OK, creating network...
+Step 30 of 300 (epoch 1), validation accuracy: 0.871697, validation loss: 87.8351
+Step 60 of 300 (epoch 2), validation accuracy: 0.878533, validation loss: 78.6932
+Step 90 of 300 (epoch 3), validation accuracy: 0.881462, validation loss: 77.6923
+Step 120 of 300 (epoch 4), validation accuracy: 0.886912, validation loss: 73.5208
+Step 150 of 300 (epoch 5), validation accuracy: 0.886912, validation loss: 72.5829
+Step 180 of 300 (epoch 6), validation accuracy: 0.891794, validation loss: 68.8614
+Step 210 of 300 (epoch 7), validation accuracy: 0.891794, validation loss: 69.2166
+Step 240 of 300 (epoch 8), validation accuracy: 0.887888, validation loss: 71.5525
+Step 270 of 300 (epoch 9), validation accuracy: 0.896677, validation loss: 63.6879
+Step 300 of 300 (epoch 10), validation accuracy: 0.896677, validation loss: 65.6223
+End of training, validation accuracy: 0.894724, validation loss: 67.9381

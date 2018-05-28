@@ -1,0 +1,24 @@
+
+======================= START! ========================
+
+Dataset:
+	Train set size = 4405
+	Test set size = 489
+	Vocabulary size = 8714
+	Input layer size = 142
+	Number of classes = 2
+
+Output folder: /home/anhtu/IT/GR3/twitter-event-cnn/output/run20180516-035116
+Data processing OK, creating network...
+Step 34 of 170 (epoch 1), validation accuracy: 0.88244, validation loss: 91.6953
+Saving checkpoint...
+Step 68 of 170 (epoch 2), validation accuracy: 0.886347, validation loss: 75.8107
+Saving checkpoint...
+Step 102 of 170 (epoch 3), validation accuracy: 0.886347, validation loss: 72.1659
+Saving checkpoint...
+Step 136 of 170 (epoch 4), validation accuracy: 0.889825, validation loss: 65.7174
+Saving checkpoint...
+Step 170 of 170 (epoch 5), validation accuracy: 0.892206, validation loss: 67.8042
+Saving checkpoint...
+End of training, validation accuracy: 0.892206, validation loss: 68.3449
+Saving checkpoint...

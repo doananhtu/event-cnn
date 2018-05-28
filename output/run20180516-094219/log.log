@@ -1,0 +1,16 @@
+
+======================= START! ========================
+
+Dataset:
+	Train set size = 4399
+	Test set size = 488
+	Vocabulary size = 8713
+	Input layer size = 142
+	Number of classes = 2
+
+Output folder: /home/anhtu/IT/GR3/twitter-event-cnn/output/run20180516-094219
+Data processing OK, loading network...
+Couldn't restore the session properly, falling back to default initialization.
+Evaluating custom input: on sunday i will kill you
+Custom input evaluation: NOT EVENT
+Actual output: [ 0.99496633  0.00503365]
