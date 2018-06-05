@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/anhtu/IT/GR3/event-detection-cnn/output/run20180601-201938/ckpt.ckpt"
+all_model_checkpoint_paths: "/home/anhtu/IT/GR3/event-detection-cnn/output/run20180601-201938/ckpt.ckpt"

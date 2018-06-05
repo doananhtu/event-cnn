@@ -1,0 +1,11 @@
+
+======================= START! ========================
+
+Dataset:
+	Train set size = 6527
+	Test set size = 725
+	Vocabulary size = 10082
+	Input layer size = 142
+	Number of classes = 2
+
+Output folder: /home/anhtu/IT/GR3/event-detection-cnn/output/run20180605-115534

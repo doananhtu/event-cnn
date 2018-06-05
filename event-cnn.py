@@ -109,7 +109,7 @@ tf.flags.DEFINE_integer('embedding_size', 128,
 tf.flags.DEFINE_integer('num_filters', 128,
                         'Number of filters per filter size (default: 128)')
 tf.flags.DEFINE_integer('batch_size', 128, 'Batch size (default: 128)')
-tf.flags.DEFINE_integer('epochs', 100, 'Number of training epochs (default: 3)')
+tf.flags.DEFINE_integer('epochs', 150, 'Number of training epochs (default: 3)')
 tf.flags.DEFINE_integer('valid_freq', 1,
                         'Check model accuracy on validation set '
                         '[VALIDATION_FREQ] times per epoch (default: 1)')
@@ -205,8 +205,8 @@ with tf.device(device):
 
     # Convolution + ReLU + Pooling layer
     pooled_outputs = []
-    for i, filter_size in enumerate(filter_sizes):
-        with tf.name_scope('conv-maxpool-%s' % filter_size):
+    for i, filter_size in enumerate(filter_sizes): # filter_size = 3,4,5
+        with tf.name_scope('conv-maxpool-%s' % filter_size): 
             # Convolution Layer
             filter_shape = [filter_size,
                             FLAGS.embedding_size,
